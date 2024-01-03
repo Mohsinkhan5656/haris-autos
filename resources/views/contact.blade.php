@@ -67,7 +67,7 @@
         	<div class="auto-container">
             	<div class="clearfix">
                 	<div class="pull-left logo-outer">
-                    	<div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.png')}}" alt="" title=""></a></div>
+                    	<div class="logo"><a href="{{route('home')}}"><img src="{{ asset('assets/images/logo.png')}}" alt="" title=""></a></div>
                     </div>
                     <div class="pull-right upper-right clearfix">
                         <!--Info Box-->
@@ -140,7 +140,7 @@
         	<div class="auto-container clearfix">
                 <!--Logo-->
             	<div class="logo pull-left">
-                	<a href="index.html" class="img-responsive"><img src="{{ asset('assets/images/logo.png') }}" alt="" title=""></a>
+                	<a href="{{route('home')}}" class="img-responsive"><img src="{{ asset('assets/images/logo.png') }}" alt="" title=""></a>
                 </div>
 
                 <!--Right Col-->
@@ -317,7 +317,7 @@
                         <div class="footer-widget about-widget">
                             <div class="footer-logo">
                                 <figure>
-                                    <a href="index.html"><img src="{{asset('assets/images/footer-logo.png')}}" alt=""></a>
+                                    <a href="{{route('home')}}"><img src="{{asset('assets/images/footer-logo.png')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="widget-content">

@@ -71,7 +71,7 @@
         	<div class="auto-container">
             	<div class="clearfix">
                 	<div class="pull-left logo-outer">
-                    	<div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.png')}}" alt="" title=""></a></div>
+                    	<div class="logo"><a href="{{route('home')}}"><img src="{{ asset('assets/images/logo.png')}}" alt="" title=""></a></div>
                     </div>
                     <div class="pull-right upper-right clearfix">
                         <!--Info Box-->
@@ -144,7 +144,7 @@
         	<div class="auto-container clearfix">
                 <!--Logo-->
             	<div class="logo pull-left">
-                	<a href="index.html" class="img-responsive"><img src="{{ asset('assets/images/logo.png') }}" alt="" title=""></a>
+                	<a href="{{route('home')}}" class="img-responsive"><img src="{{ asset('assets/images/logo.png') }}" alt="" title=""></a>
                 </div>
 
                 <!--Right Col-->
@@ -445,16 +445,16 @@
                 <!-- Image Column -->
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image-box">
-                        <a href="about.html"><img src="{{ asset('assets/images/resource/about-img.jpg')}}" alt=""></a>
+                        <a href="{{route('about')}}"><img src="{{ asset('assets/images/resource/about-img.jpg')}}" alt=""></a>
                     </div>
                     <div class="row clearfix">
                         <div class="column col-lg-6 col-md-6 col-sm-12">
-                            <h3><a href="about.html">Our Mission</a></h3>
+                            <h3><a href="{{route('about')}}">Our Mission</a></h3>
                             <p>Our mission is to provide exceptional automotive repair and maintenance services, ensuring safety, reliability, and customer satisfaction in every service we deliver.</p>
                         </div>
 
                         <div class="column col-lg-6 col-md-6 col-sm-12">
-                            <h3><a href="about.html">Our History</a></h3>
+                            <h3><a href="{{route('about')}}">Our History</a></h3>
                             <p>Founded on a passion for automotive excellence, we've served our community for 20 years with unwavering commitment, evolving into a trusted name in the automotive repair and service industry.</p>
                         </div>
                     </div>
@@ -521,7 +521,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
-                            <span class="price">65<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Suspension Repair</a></h3>
@@ -535,7 +534,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
-                            <span class="price">45<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Engine Overhaul</a></h3>
@@ -549,7 +547,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
-                            <span class="price">25<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Wheel Alignment</a></h3>
@@ -563,7 +560,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
-                            <span class="price">85<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Car Inspection</a></h3>
@@ -577,7 +573,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
-                            <span class="price">65<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Suspension Repair</a></h3>
@@ -591,7 +586,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
-                            <span class="price">45<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Engine Overhaul</a></h3>
@@ -605,7 +599,6 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
-                            <span class="price">25<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
                             <h3><a href="#">Wheel Alignment</a></h3>
@@ -619,10 +612,9 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <a href="#"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
-                            <span class="price">85<sup>$</sup></span>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Suspension Repair</a></h3>
+                            <h3><a href="#">Car Inspection</a></h3>
                             <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
@@ -781,7 +773,7 @@
                         </div>
                         <div class="info-box">
                             <div class="inner-box">
-                                <h3 class="name"><a href="team-single.html">Mian Ahmed</a></h3>
+                                <h3 class="name"><a href="#">Mian Ahmed</a></h3>
                                 <span class="designation">Project Manager</span>
                             </div>
                         </div>
@@ -932,7 +924,7 @@
                         <div class="footer-widget about-widget">
                             <div class="footer-logo">
                                 <figure>
-                                    <a href="index.html"><img src="{{asset('assets/images/footer-logo.png')}}" alt=""></a>
+                                    <a href="{{route('home')}}"><img src="{{asset('assets/images/footer-logo.png')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="widget-content">
