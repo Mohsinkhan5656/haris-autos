@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Haris Autos</title>
-<link rel="icon" type="image/x-icon" href="{{asset('assets/images/favicon.png')}}">
+<title>Haris Autos | Join Us</title>
 
 <!-- Stylesheets -->
 <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
@@ -21,8 +20,8 @@
 <link id="theme-color-file" href="{{asset('assets/css/color-themes/default-theme.css')}}" rel="stylesheet">
 
 <!--Favicon-->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+<link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,10 +50,10 @@
                     </div>
                     <div class="top-right clearfix">
                         <ul class="social-icon-one clearfix">
-                            <li><a href="#"><span class="fa fa-phone-volume">_24/7 Support_02034902176</span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fa fa-phone-volume">_24/7 Support_02034902176</span></a></li>
                         </ul>
                         <div class="call-btn">
-                            <a href="#">Book Now</a>
+                            <a href="javascript:void(0)">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +83,7 @@
                         	<div class="icon-box"><span class="flaticon-mail-1"></span></div>
                             <ul>
                             	<li><strong>Send your mail at</strong></li>
-                                <li><a href="#">harisautos1@outlook.com</a></li>
+                                <li><a href="javascript:void(0)">harisautos1@outlook.com</a></li>
                             </ul>
                         </div>
 
@@ -161,7 +160,7 @@
 								</li>
                                 <li><a href="{{route('about')}}">About</a>
                                 </li>
-                                <li class="current dropdown"><a href="#">Join Us</a></li>
+                                <li class="current dropdown"><a href="{{route('contact')}}">Join Us</a></li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -258,7 +257,7 @@
                             <li>
                                 <span class="icon flaticon-phone"></span>
                                 <p><strong>Phone:</strong>+44 7393 547570</p>
-                                <p><span>Email:</span><a href="#">harisautos1@outlook.com</a></p>
+                                <p><span>Email:</span><a href="javascript:void(0)">harisautos1@outlook.com</a></p>
                             </li>
 
                             <li>
@@ -291,14 +290,14 @@
         <div class="sponsors-outer">
             <!--Sponsors Carousel-->
             <ul class="sponsors-carousel owl-carousel owl-theme">
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
+                <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
             </ul>
             </div>
         </div>
@@ -324,11 +323,11 @@
                                 <div class="text">How to pursue pleasure rationally thats encounter consequences that extremely painful. Nor again is there anyones who loves or pursues or ut desires obtains pain of itself, because.</div>
                                 <h4>Follow Us:</h4>
                                 <ul class="social-icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -340,11 +339,11 @@
                             <h2 class="widget-title">Our Services</h2>
                             <div class="widget-content">
                                 <ul class="services-list">
-                                    <li><a href="#">Engine Diagnostic & Repair</a></li>
-                                    <li><a href="#">Maintanence Inspaection</a></li>
-                                    <li><a href="#">Electrical System Diagnostic</a></li>
-                                    <li><a href="#">Wheel Allignment & Installation</a></li>
-                                    <li><a href="#">Air Conditioner Service & Repair</a></li>
+                                    <li><a href="javascript:void(0)">Engine Diagnostic & Repair</a></li>
+                                    <li><a href="javascript:void(0)">Maintanence Inspaection</a></li>
+                                    <li><a href="javascript:void(0)">Electrical System Diagnostic</a></li>
+                                    <li><a href="javascript:void(0)">Wheel Allignment & Installation</a></li>
+                                    <li><a href="javascript:void(0)">Air Conditioner Service & Repair</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -395,12 +394,12 @@
                              <!--Footer Column-->
                             <div class="widget-content">
                                 <div class="post">
-                                    <h4><a href="#">Updates on servicing electric vehicles, needs for EVs.</a></h4>
+                                    <h4><a href="javascript:void(0)">Updates on servicing electric vehicles, needs for EVs.</a></h4>
                                     <span class="date"><i class="far fa-calendar-check"></i>Dec 31, 2023</span>
                                 </div>
 
                                 <div class="post">
-                                    <h4><a href="#">News about training programs and skill developments.</a></h4>
+                                    <h4><a href="javascript:void(0)">News about training programs and skill developments.</a></h4>
                                     <span class="date"><i class="far fa-calendar-check"></i>Jan 01, 2024</span>
                                 </div>
                             </div>
@@ -414,7 +413,7 @@
          <div class="footer-bottom">
             <div class="auto-container">
                 <div class="copyright-text">
-                    <p>Copyrights © 2024 All Rights Reserved. by <a href="#"> Haris Autos</a></p>
+                    <p>Copyrights © 2024 All Rights Reserved. by <a href="javascript:void(0)"> Haris Autos</a></p>
                 </div>
             </div>
         </div>

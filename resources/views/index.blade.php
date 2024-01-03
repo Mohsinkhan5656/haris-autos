@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>Haris Autos</title>
-<link rel="icon" type="image/x-icon" href="{{asset('assets/images/favicon.png')}}">
 
 <!-- Stylesheets -->
 <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
@@ -21,8 +20,8 @@
 <link id="theme-color-file" href="{{asset('assets/css/color-themes/default-theme.css')}}" rel="stylesheet">
 
 <!--Favicon-->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+<link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,14 +50,14 @@
                     </div>
                     <div class="top-right clearfix">
                         <ul class="social-icon-one clearfix">
-                            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                            <li><a href="#"><span class="fab fa-pinterest"></span></a></li>
-                            <li><a href="#"><span class="fab fa-dribbble"></span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fab fa-facebook-f"></span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fab fa-twitter"></span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fab fa-google-plus-g"></span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fab fa-pinterest"></span></a></li>
+                            <li><a href="javascript:void(0)"><span class="fab fa-dribbble"></span></a></li>
                         </ul>
                         <div class="call-btn">
-                            <a href="#">Book Now</a>
+                            <a href="javascript:void(0)">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +87,7 @@
                         	<div class="icon-box"><span class="flaticon-mail-1"></span></div>
                             <ul>
                             	<li><strong>Send your mail at</strong></li>
-                                <li><a href="#">harisautos1@outlook.com</a></li>
+                                <li><a href="javascript:void(0)">harisautos1@outlook.com</a></li>
                             </ul>
                         </div>
 
@@ -255,7 +254,7 @@
                         data-x="['left','left','left','left']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <a href="#" class="theme-btn btn-style-one">Booking Now</a>
+                            <a href="javascript:void(0)" class="theme-btn btn-style-one">Booking Now</a>
                         </div>
                     </li>
 
@@ -337,7 +336,7 @@
                         data-x="['center','center','center','center']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <a href="#" class="theme-btn btn-style-one">Booking Now</a>
+                            <a href="javascript:void(0)" class="theme-btn btn-style-one">Booking Now</a>
                         </div>
                     </li>
 
@@ -414,7 +413,7 @@
                         data-x="['right','left','left','left']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <a href="#" class="theme-btn btn-style-one">Booking Now</a>
+                            <a href="javascript:void(0)" class="theme-btn btn-style-one">Booking Now</a>
                         </div>
                     </li>
 
@@ -520,11 +519,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Suspension Repair</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Suspension Repair</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -533,11 +532,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Engine Overhaul</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Engine Overhaul</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -546,11 +545,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Wheel Alignment</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Wheel Alignment</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -559,11 +558,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Car Inspection</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Car Inspection</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -572,11 +571,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-1.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Suspension Repair</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Suspension Repair</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -585,11 +584,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-2.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Engine Overhaul</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Engine Overhaul</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -598,11 +597,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-3.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Wheel Alignment</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Wheel Alignment</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -611,11 +610,11 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image-box">
-                            <a href="#"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
+                            <a href="javascript:void(0)"><img src="{{asset('assets/images/resource/feature-4.jpg')}}" alt=""></a>
                         </div>
                         <div class="lower-content">
-                            <h3><a href="#">Car Inspection</a></h3>
-                            <a href="#" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
+                            <h3><a href="javascript:void(0)">Car Inspection</a></h3>
+                            <a href="javascript:void(0)" class="read-more"><i class="fa fa-angle-right"></i> Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -653,9 +652,9 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/1.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/1.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -667,9 +666,9 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/2.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/2.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -681,9 +680,9 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/3.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/3.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -695,9 +694,9 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/4.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/4.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -709,9 +708,9 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/5.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/5.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -723,16 +722,16 @@
                             <figure class="image"><img src="{{asset('assets/images/gallery/6.jpg')}}" alt=""></figure>
                             <div class="overlay-box">
                                 <div class="icon-box">
-                                    <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                    <a href="javascript:void(0)" class="link"><span class="icon fa fa-link"></span></a>
                                     <a href="{{asset('assets/images/gallery/6.jpg')}}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-expand-arrows-alt"></span></a>
-                                    <h3><a href="#">Car Repair Service</a></h3>
+                                    <h3><a href="javascript:void(0)">Car Repair Service</a></h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="btn-box text-center">
-                    <a href="#" class="theme-btn btn-style-two">View All</a>
+                    <a href="javascript:void(0)" class="theme-btn btn-style-two">View All</a>
                 </div>
             </div>
         </div>
@@ -764,16 +763,16 @@
                         <div class="image-box">
                             <figure><img src="{{asset('assets/images/resource/team-2.png')}}" alt=""></figure>
                             <ul class="social-icon">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-dribbble"></i></a></li>
                             </ul>
                         </div>
                         <div class="info-box">
                             <div class="inner-box">
-                                <h3 class="name"><a href="#">Mian Ahmed</a></h3>
+                                <h3 class="name"><a href="javascript:void(0)">Mian Ahmed</a></h3>
                                 <span class="designation">Project Manager</span>
                             </div>
                         </div>
@@ -865,7 +864,7 @@
                             <li>
                                 <span class="icon flaticon-phone"></span>
                                 <p><strong>Phone:</strong>+44 7393 547570</p>
-                                <p><span>Email:</span><a href="#">harisautos1@outlook.com</a></p>
+                                <p><span>Email:</span><a href="javascript:void(0)">harisautos1@outlook.com</a></p>
                             </li>
 
                             <li>
@@ -898,14 +897,14 @@
             <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
                 <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/1.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/2.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/3.png')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="javascript:void(0)"><img src="{{asset('assets/images/clients/4.png')}}" alt=""></a></figure></li>
                 </ul>
             </div>
         </div>
@@ -931,11 +930,11 @@
                                 <div class="text">How to pursue pleasure rationally thats encounter consequences that extremely painful. Nor again is there anyones who loves or pursues or ut desires obtains pain of itself, because.</div>
                                 <h4>Follow Us:</h4>
                                 <ul class="social-icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -947,11 +946,11 @@
                             <h2 class="widget-title">Our Services</h2>
                             <div class="widget-content">
                                 <ul class="services-list">
-                                    <li><a href="#">Engine Diagnostic & Repair</a></li>
-                                    <li><a href="#">Maintanence Inspaection</a></li>
-                                    <li><a href="#">Electrical System Diagnostic</a></li>
-                                    <li><a href="#">Wheel Allignment & Installation</a></li>
-                                    <li><a href="#">Air Conditioner Service & Repair</a></li>
+                                    <li><a href="javascript:void(0)">Engine Diagnostic & Repair</a></li>
+                                    <li><a href="javascript:void(0)">Maintanence Inspaection</a></li>
+                                    <li><a href="javascript:void(0)">Electrical System Diagnostic</a></li>
+                                    <li><a href="javascript:void(0)">Wheel Allignment & Installation</a></li>
+                                    <li><a href="javascript:void(0)">Air Conditioner Service & Repair</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1002,12 +1001,12 @@
                              <!--Footer Column-->
                             <div class="widget-content">
                                 <div class="post">
-                                    <h4><a href="#">Updates on servicing electric vehicles, needs for EVs.</a></h4>
+                                    <h4><a href="javascript:void(0)">Updates on servicing electric vehicles, needs for EVs.</a></h4>
                                     <span class="date"><i class="far fa-calendar-check"></i>Dec 31, 2023</span>
                                 </div>
 
                                 <div class="post">
-                                    <h4><a href="#">News about training programs and skill developments.</a></h4>
+                                    <h4><a href="javascript:void(0)">News about training programs and skill developments.</a></h4>
                                     <span class="date"><i class="far fa-calendar-check"></i>Jan 01, 2024</span>
                                 </div>
                             </div>
@@ -1021,7 +1020,7 @@
          <div class="footer-bottom">
             <div class="auto-container">
                 <div class="copyright-text">
-                    <p>Copyrights © 2024 All Rights Reserved. by <a href="#"> Haris Autos</a></p>
+                    <p>Copyrights © 2024 All Rights Reserved. by <a href="javascript:void(0)"> Haris Autos</a></p>
                 </div>
             </div>
         </div>

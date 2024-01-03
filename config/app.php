@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Haris Autos'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,9 +55,15 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://harisautos.uk'),
 
     'asset_url' => env('ASSET_URL'),
+
+    'admin_email' => env('ADMIN_EMAIL','harisautos1@outlook.com'),
+
+    'email_subject' => env('EMAIL_SUBJECT','Haris Autos | Join Us Request'),
+
+    'enable_smtp' => env('ENABLE_SMTP',false),
 
     /*
     |--------------------------------------------------------------------------
@@ -124,7 +130,7 @@ return [
 
     'key' => env('APP_KEY'),
 
-    'cipher' => 'AES-256-CBC',
+    'cipher' => 'AES-128-CBC',
 
     /*
     |--------------------------------------------------------------------------

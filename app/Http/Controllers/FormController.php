@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\NewRegistration;
 
 class FormController extends Controller
 {
@@ -21,8 +23,14 @@ class FormController extends Controller
         // Store validated data in the database
         Contact::create($validatedData);
 
-        Session::flash('success', 'Your message submitted successfully!');
+        if(config('app.enable_smtp')){
+            //Send email on new registration
+            Mail::send(new NewRegistration($validatedData));
+        }
 
-        return view('contact');
+
+        Session::flash('success', 'Thank you for contacting us. Your message has been successfully submitted. Our team will review it and get back to you shortly.');
+
+        return redirect()->route('contact');
     }
 }

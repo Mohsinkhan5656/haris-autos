@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Haris Autos</title>
-<link rel="icon" type="image/x-icon" href="{{asset('assets/images/favicon.png')}}">
+<title>Haris Autos | About Us</title>
 
 <!-- Stylesheets -->
 <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
@@ -21,8 +20,8 @@
 <link id="theme-color-file" href="{{asset('assets/css/color-themes/default-theme.css')}}" rel="stylesheet">
 
 <!--Favicon-->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+<link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
